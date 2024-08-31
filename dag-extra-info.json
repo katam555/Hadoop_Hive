@@ -1,0 +1,436 @@
+{
+  "dag-extra-info": {
+    "entitytype": "TEZ_DAG_EXTRA_INFO",
+    "entity": "dag_1723231353225_0009_5",
+    "starttime": 1723250131652,
+    "events": [
+      {
+        "timestamp": 1723250148651,
+        "eventtype": "DAG_FINISHED",
+        "eventinfo": {}
+      },
+      {
+        "timestamp": 1723250131652,
+        "eventtype": "DAG_SUBMITTED",
+        "eventinfo": {}
+      }
+    ],
+    "domain": "Tez_ATS_application_1723231353225_0009_5",
+    "relatedentities": {},
+    "primaryfilters": {},
+    "otherinfo": {
+      "counters": {
+        "counterGroups": [
+          {
+            "counterGroupName": "org.apache.tez.common.counters.DAGCounter",
+            "counters": [
+              {
+                "counterName": "NUM_SUCCEEDED_TASKS",
+                "counterValue": 3,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "TOTAL_LAUNCHED_TASKS",
+                "counterValue": 3,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "AM_CPU_MILLISECONDS",
+                "counterValue": 1050,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 1050,
+                "counterMinValue": 1050
+              },
+              {
+                "counterName": "WALL_CLOCK_MILLIS",
+                "counterValue": 18941,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 18941,
+                "counterMinValue": 18941
+              }
+            ]
+          },
+          {
+            "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+            "counterGroupDisplayName": "File System Counters",
+            "counters": [
+              {
+                "counterName": "FILE_BYTES_WRITTEN",
+                "counterValue": 173,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 173,
+                "counterMinValue": 0
+              },
+              {
+                "counterName": "HDFS_BYTES_READ",
+                "counterValue": 395,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 216,
+                "counterMinValue": 55
+              },
+              {
+                "counterName": "HDFS_BYTES_WRITTEN",
+                "counterValue": 386,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 195,
+                "counterMinValue": 0
+              },
+              {
+                "counterName": "HDFS_READ_OPS",
+                "counterValue": 18,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 9,
+                "counterMinValue": 2
+              },
+              {
+                "counterName": "HDFS_WRITE_OPS",
+                "counterValue": 4,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 2,
+                "counterMinValue": 0
+              }
+            ]
+          },
+          {
+            "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+            "counters": [
+              {
+                "counterName": "NUM_SHUFFLED_INPUTS",
+                "counterValue": 2,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 1,
+                "counterMinValue": 1
+              },
+              {
+                "counterName": "GC_TIME_MILLIS",
+                "counterValue": 337,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 146,
+                "counterMinValue": 62
+              },
+              {
+                "counterName": "CPU_MILLISECONDS",
+                "counterValue": 19890,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 7210,
+                "counterMinValue": 5860
+              },
+              {
+                "counterName": "WALL_CLOCK_MILLISECONDS",
+                "counterValue": 17724,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 7344,
+                "counterMinValue": 3383
+              },
+              {
+                "counterName": "PHYSICAL_MEMORY_BYTES",
+                "counterValue": 859832320,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 291504128,
+                "counterMinValue": 283115520
+              },
+              {
+                "counterName": "VIRTUAL_MEMORY_BYTES",
+                "counterValue": 13645078528,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 4559405056,
+                "counterMinValue": 4540411904
+              },
+              {
+                "counterName": "COMMITTED_HEAP_BYTES",
+                "counterValue": 859832320,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 291504128,
+                "counterMinValue": 283115520
+              },
+              {
+                "counterName": "INPUT_RECORDS_PROCESSED",
+                "counterValue": 21,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              },
+              {
+                "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                "counterValue": 170,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 66,
+                "counterMinValue": 49
+              },
+              {
+                "counterName": "OUTPUT_RECORDS",
+                "counterValue": 7,
+                "counterInstanceCount": 3,
+                "counterMaxValue": 7,
+                "counterMinValue": 0
+              },
+              {
+                "counterName": "OUTPUT_BYTES",
+                "counterValue": 83,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 83,
+                "counterMinValue": 83
+              },
+              {
+                "counterName": "OUTPUT_BYTES_WITH_OVERHEAD",
+                "counterValue": 178,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 178,
+                "counterMinValue": 178
+              },
+              {
+                "counterName": "OUTPUT_BYTES_PHYSICAL",
+                "counterValue": 165,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 165,
+                "counterMinValue": 165
+              },
+              {
+                "counterName": "SHUFFLE_BYTES",
+                "counterValue": 117,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 65,
+                "counterMinValue": 52
+              },
+              {
+                "counterName": "SHUFFLE_BYTES_DECOMPRESSED",
+                "counterValue": 109,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 61,
+                "counterMinValue": 48
+              },
+              {
+                "counterName": "SHUFFLE_BYTES_TO_MEM",
+                "counterValue": 117,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 65,
+                "counterMinValue": 52
+              },
+              {
+                "counterName": "SHUFFLE_PHASE_TIME",
+                "counterValue": 812,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 414,
+                "counterMinValue": 398
+              },
+              {
+                "counterName": "FIRST_EVENT_RECEIVED",
+                "counterValue": 348,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 175,
+                "counterMinValue": 173
+              },
+              {
+                "counterName": "LAST_EVENT_RECEIVED",
+                "counterValue": 348,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 175,
+                "counterMinValue": 173
+              }
+            ]
+          },
+          {
+            "counterGroupName": "HIVE",
+            "counters": [
+              {
+                "counterName": "CREATED_FILES",
+                "counterValue": 2,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 1,
+                "counterMinValue": 1
+              },
+              {
+                "counterName": "RECORDS_IN_Map_1",
+                "counterValue": 7,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 4,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_IN_Map_2",
+                "counterValue": 3,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_0",
+                "counterValue": 6,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_INTERMEDIATE_Map_2",
+                "counterValue": 7,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_FIL_17",
+                "counterValue": 7,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_FIL_20",
+                "counterValue": 7,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 4,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_FS_23",
+                "counterValue": 6,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_MAPJOIN_22",
+                "counterValue": 6,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 3,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_RS_19",
+                "counterValue": 7,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_SEL_18",
+                "counterValue": 7,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_SEL_21",
+                "counterValue": 7,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 4,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_TS_0",
+                "counterValue": 7,
+                "counterInstanceCount": 2,
+                "counterMaxValue": 4,
+                "counterMinValue": 3
+              },
+              {
+                "counterName": "RECORDS_OUT_OPERATOR_TS_3",
+                "counterValue": 7,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 7,
+                "counterMinValue": 7
+              }
+            ]
+          },
+          {
+            "counterGroupName": "org.apache.hadoop.hive.ql.exec.tez.HiveInputCounters",
+            "counters": [
+              {
+                "counterName": "GROUPED_INPUT_SPLITS_Map_2",
+                "counterValue": 1,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 1,
+                "counterMinValue": 1
+              },
+              {
+                "counterName": "INPUT_DIRECTORIES_Map_2",
+                "counterValue": 1,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 1,
+                "counterMinValue": 1
+              },
+              {
+                "counterName": "INPUT_FILES_Map_2",
+                "counterValue": 2,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 2,
+                "counterMinValue": 2
+              },
+              {
+                "counterName": "RAW_INPUT_SPLITS_Map_2",
+                "counterValue": 2,
+                "counterInstanceCount": 1,
+                "counterMaxValue": 2,
+                "counterMinValue": 2
+              }
+            ]
+          }
+        ]
+      },
+      "dagPlan": {
+        "dagName": "SELECT * FROM buck_users u INNER JOIN...l.id (Stage-1)",
+        "dagInfo": "{\"context\":\"Hive\",\"description\":\"SELECT * FROM buck_users u INNER JOIN buck_locations l ON u.id = l.id\"}",
+        "dagContext": {
+          "callerId": "naveenkb_de_20240810003531_b7c0baaa-7746-4beb-82e8-0623b3b7dba2",
+          "callerType": "HIVE_QUERY_ID",
+          "context": "HIVE",
+          "description": "SELECT * FROM buck_users u INNER JOIN buck_locations l ON u.id = l.id"
+        },
+        "version": 2,
+        "vertices": [
+          {
+            "vertexName": "Map 2",
+            "processorClass": "org.apache.hadoop.hive.ql.exec.tez.MapTezProcessor",
+            "outEdgeIds": [
+              "1131930634"
+            ],
+            "additionalInputs": [
+              {
+                "name": "l",
+                "class": "org.apache.tez.mapreduce.input.MRInputLegacy",
+                "initializer": "org.apache.hadoop.hive.ql.exec.tez.HiveSplitGenerator"
+              }
+            ]
+          },
+          {
+            "vertexName": "Map 1",
+            "processorClass": "org.apache.hadoop.hive.ql.exec.tez.MapTezProcessor",
+            "inEdgeIds": [
+              "1131930634"
+            ],
+            "additionalInputs": [
+              {
+                "name": "u",
+                "class": "org.apache.tez.mapreduce.input.MRInputLegacy",
+                "initializer": "org.apache.tez.mapreduce.common.MRInputAMSplitGenerator"
+              }
+            ],
+            "additionalOutputs": [
+              {
+                "name": "out_Map 1",
+                "class": "org.apache.tez.mapreduce.output.MROutput"
+              }
+            ],
+            "vertexManagerPluginClass": "org.apache.hadoop.hive.ql.exec.tez.CustomPartitionVertex"
+          }
+        ],
+        "edges": [
+          {
+            "edgeId": "1131930634",
+            "inputVertexName": "Map 2",
+            "outputVertexName": "Map 1",
+            "dataMovementType": "CUSTOM",
+            "dataSourceType": "PERSISTED",
+            "schedulingType": "SEQUENTIAL",
+            "edgeSourceClass": "org.apache.tez.runtime.library.output.UnorderedPartitionedKVOutput",
+            "edgeDestinationClass": "org.apache.tez.runtime.library.input.UnorderedKVInput"
+          }
+        ]
+      }
+    }
+  }
+}

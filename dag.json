@@ -1,0 +1,87 @@
+{
+  "dag": {
+    "entitytype": "TEZ_DAG_ID",
+    "entity": "dag_1723231353225_0009_5",
+    "starttime": 1723250131652,
+    "events": [
+      {
+        "timestamp": 1723250148651,
+        "eventtype": "DAG_FINISHED",
+        "eventinfo": {}
+      },
+      {
+        "timestamp": 1723250131732,
+        "eventtype": "DAG_STARTED",
+        "eventinfo": {}
+      },
+      {
+        "timestamp": 1723250131731,
+        "eventtype": "DAG_INITIALIZED",
+        "eventinfo": {}
+      },
+      {
+        "timestamp": 1723250131652,
+        "eventtype": "DAG_SUBMITTED",
+        "eventinfo": {}
+      }
+    ],
+    "domain": "Tez_ATS_application_1723231353225_0009_5",
+    "relatedentities": {
+      "TEZ_DAG_EXTRA_INFO": [
+        "dag_1723231353225_0009_5"
+      ],
+      "TEZ_VERTEX_ID": [
+        "vertex_1723231353225_0009_5_01",
+        "vertex_1723231353225_0009_5_00"
+      ]
+    },
+    "primaryfilters": {
+      "dagName": [
+        "SELECT * FROM buck_users u INNER JOIN...l.id (Stage-1)"
+      ],
+      "queueName": [
+        "default"
+      ],
+      "callerId": [
+        "naveenkb_de_20240810003531_b7c0baaa-7746-4beb-82e8-0623b3b7dba2"
+      ],
+      "applicationId": [
+        "application_1723231353225_0009"
+      ],
+      "user": [
+        "naveenkb_de"
+      ],
+      "status": [
+        "SUCCEEDED"
+      ]
+    },
+    "otherinfo": {
+      "completionApplicationAttemptId": "appattempt_1723231353225_0009_000001",
+      "numFailedTaskAttempts": 0,
+      "callerContext": "HIVE",
+      "numKilledTaskAttempts": 0,
+      "numCompletedTasks": 3,
+      "amWebServiceVersion": "2",
+      "inProgressLogsURL_1": "http://jippjy4j4rf4xl3ovgxflbovk4-dot-us-central1.dataproc.googleusercontent.com:80/gateway/default/node/containerlogs/container_1723231353225_0009_01_000001/naveenkb_de?scheme=http&nm_port=8026&port=8042&host=hadoop-cluster-w-0.us-central1-c.c.hadoop-hive-431821.internal",
+      "numSucceededTasks": 3,
+      "vertexNameIdMapping": {
+        "Map 1": "vertex_1723231353225_0009_5_01",
+        "Map 2": "vertex_1723231353225_0009_5_00"
+      },
+      "numFailedTasks": 0,
+      "timeTaken": 16919,
+      "diagnostics": "",
+      "queueName": "default",
+      "applicationAttemptId": "appattempt_1723231353225_0009_000001",
+      "callerType": "HIVE_QUERY_ID",
+      "startTime": 1723250131732,
+      "callerId": "naveenkb_de_20240810003531_b7c0baaa-7746-4beb-82e8-0623b3b7dba2",
+      "endTime": 1723250148651,
+      "applicationId": "application_1723231353225_0009",
+      "numKilledTasks": 0,
+      "initTime": 1723250131731,
+      "user": "naveenkb_de",
+      "status": "SUCCEEDED"
+    }
+  }
+}

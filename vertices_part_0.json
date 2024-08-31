@@ -1,0 +1,599 @@
+{
+  "vertices": [
+    {
+      "entitytype": "TEZ_VERTEX_ID",
+      "entity": "vertex_1723231353225_0009_5_01",
+      "starttime": 1723250131850,
+      "events": [
+        {
+          "timestamp": 1723250148648,
+          "eventtype": "VERTEX_FINISHED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250131850,
+          "eventtype": "VERTEX_CONFIGURE_DONE",
+          "eventinfo": {
+            "numTasks": 2,
+            "updatedEdgeManagers": {
+              "Map 2": {
+                "schedulingType": "SEQUENTIAL",
+                "edgeSourceClass": "org.apache.tez.runtime.library.output.UnorderedPartitionedKVOutput",
+                "edgeManagerClass": "org.apache.hadoop.hive.ql.exec.tez.CustomPartitionEdge",
+                "dataMovementType": "CUSTOM",
+                "edgeDestinationClass": "org.apache.tez.runtime.library.input.UnorderedKVInput",
+                "dataSourceType": "PERSISTED"
+              }
+            }
+          }
+        },
+        {
+          "timestamp": 1723250131850,
+          "eventtype": "VERTEX_INITIALIZED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250131850,
+          "eventtype": "VERTEX_STARTED",
+          "eventinfo": {}
+        }
+      ],
+      "domain": "Tez_ATS_application_1723231353225_0009_5",
+      "relatedentities": {},
+      "primaryfilters": {
+        "TEZ_DAG_ID": [
+          "dag_1723231353225_0009_5"
+        ],
+        "applicationId": [
+          "application_1723231353225_0009"
+        ],
+        "status": [
+          "SUCCEEDED"
+        ]
+      },
+      "otherinfo": {
+        "numTasks": 2,
+        "numFailedTaskAttempts": 0,
+        "processorClassName": "org.apache.hadoop.hive.ql.exec.tez.MapTezProcessor",
+        "numKilledTaskAttempts": 0,
+        "servicePlugin": {
+          "taskSchedulerName": "TezYarn",
+          "taskSchedulerClassName": "org.apache.tez.dag.app.rm.YarnTaskSchedulerService",
+          "taskCommunicatorName": "TezYarn",
+          "taskCommunicatorClassName": "org.apache.tez.dag.app.TezTaskCommunicatorImpl",
+          "containerLauncherName": "TezYarn",
+          "containerLauncherClassName": "org.apache.tez.dag.app.launcher.TezContainerLauncherImpl"
+        },
+        "vertexName": "Map 1",
+        "counters": {
+          "counterGroups": [
+            {
+              "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+              "counterGroupDisplayName": "File System Counters",
+              "counters": [
+                {
+                  "counterName": "HDFS_BYTES_READ",
+                  "counterValue": 340,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 216,
+                  "counterMinValue": 124
+                },
+                {
+                  "counterName": "HDFS_BYTES_WRITTEN",
+                  "counterValue": 386,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 195,
+                  "counterMinValue": 191
+                },
+                {
+                  "counterName": "HDFS_READ_OPS",
+                  "counterValue": 16,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 9,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "HDFS_WRITE_OPS",
+                  "counterValue": 4,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 2,
+                  "counterMinValue": 2
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+              "counters": [
+                {
+                  "counterName": "NUM_SHUFFLED_INPUTS",
+                  "counterValue": 2,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 1,
+                  "counterMinValue": 1
+                },
+                {
+                  "counterName": "GC_TIME_MILLIS",
+                  "counterValue": 275,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 146,
+                  "counterMinValue": 129
+                },
+                {
+                  "counterName": "CPU_MILLISECONDS",
+                  "counterValue": 14030,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 7210,
+                  "counterMinValue": 6820
+                },
+                {
+                  "counterName": "WALL_CLOCK_MILLISECONDS",
+                  "counterValue": 14341,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 7344,
+                  "counterMinValue": 6997
+                },
+                {
+                  "counterName": "PHYSICAL_MEMORY_BYTES",
+                  "counterValue": 568328192,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 285212672,
+                  "counterMinValue": 283115520
+                },
+                {
+                  "counterName": "VIRTUAL_MEMORY_BYTES",
+                  "counterValue": 9104666624,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 4559405056,
+                  "counterMinValue": 4545261568
+                },
+                {
+                  "counterName": "COMMITTED_HEAP_BYTES",
+                  "counterValue": 568328192,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 285212672,
+                  "counterMinValue": 283115520
+                },
+                {
+                  "counterName": "INPUT_RECORDS_PROCESSED",
+                  "counterValue": 14,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                  "counterValue": 115,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 66,
+                  "counterMinValue": 49
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES",
+                  "counterValue": 117,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 65,
+                  "counterMinValue": 52
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_DECOMPRESSED",
+                  "counterValue": 109,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 61,
+                  "counterMinValue": 48
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_TO_MEM",
+                  "counterValue": 117,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 65,
+                  "counterMinValue": 52
+                },
+                {
+                  "counterName": "SHUFFLE_PHASE_TIME",
+                  "counterValue": 812,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 414,
+                  "counterMinValue": 398
+                },
+                {
+                  "counterName": "FIRST_EVENT_RECEIVED",
+                  "counterValue": 348,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 175,
+                  "counterMinValue": 173
+                },
+                {
+                  "counterName": "LAST_EVENT_RECEIVED",
+                  "counterValue": 348,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 175,
+                  "counterMinValue": 173
+                }
+              ]
+            },
+            {
+              "counterGroupName": "HIVE",
+              "counters": [
+                {
+                  "counterName": "CREATED_FILES",
+                  "counterValue": 2,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 1,
+                  "counterMinValue": 1
+                },
+                {
+                  "counterName": "RECORDS_IN_Map_1",
+                  "counterValue": 7,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 4,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_0",
+                  "counterValue": 6,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 3,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FIL_20",
+                  "counterValue": 7,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 4,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FS_23",
+                  "counterValue": 6,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 3,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_MAPJOIN_22",
+                  "counterValue": 6,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 3,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_SEL_21",
+                  "counterValue": 7,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 4,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_TS_0",
+                  "counterValue": 7,
+                  "counterInstanceCount": 2,
+                  "counterMaxValue": 4,
+                  "counterMinValue": 3
+                }
+              ]
+            }
+          ]
+        },
+        "numCompletedTasks": 2,
+        "numSucceededTasks": 2,
+        "numFailedTasks": 0,
+        "initRequestedTime": 1723250131760,
+        "startRequestedTime": 1723250131831,
+        "timeTaken": 16798,
+        "diagnostics": "",
+        "stats": {
+          "firstTaskStartTime": 1723250140876,
+          "firstTasksToStart": [
+            "task_1723231353225_0009_5_01_000000"
+          ],
+          "lastTaskFinishTime": 1723250148647,
+          "lastTasksToFinish": [
+            "task_1723231353225_0009_5_01_000001"
+          ],
+          "minTaskDuration": 7528,
+          "maxTaskDuration": 7762,
+          "avgTaskDuration": 7645,
+          "shortestDurationTasks": [
+            "task_1723231353225_0009_5_01_000001"
+          ],
+          "longestDurationTasks": [
+            "task_1723231353225_0009_5_01_000000"
+          ]
+        },
+        "startTime": 1723250131850,
+        "endTime": 1723250148648,
+        "numKilledTasks": 0,
+        "initTime": 1723250131850,
+        "status": "SUCCEEDED"
+      }
+    },
+    {
+      "entitytype": "TEZ_VERTEX_ID",
+      "entity": "vertex_1723231353225_0009_5_00",
+      "starttime": 1723250131830,
+      "events": [
+        {
+          "timestamp": 1723250140846,
+          "eventtype": "VERTEX_FINISHED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250131830,
+          "eventtype": "VERTEX_CONFIGURE_DONE",
+          "eventinfo": {
+            "numTasks": 1
+          }
+        },
+        {
+          "timestamp": 1723250131830,
+          "eventtype": "VERTEX_INITIALIZED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250131830,
+          "eventtype": "VERTEX_STARTED",
+          "eventinfo": {}
+        }
+      ],
+      "domain": "Tez_ATS_application_1723231353225_0009_5",
+      "relatedentities": {},
+      "primaryfilters": {
+        "TEZ_DAG_ID": [
+          "dag_1723231353225_0009_5"
+        ],
+        "applicationId": [
+          "application_1723231353225_0009"
+        ],
+        "status": [
+          "SUCCEEDED"
+        ]
+      },
+      "otherinfo": {
+        "numTasks": 1,
+        "numFailedTaskAttempts": 0,
+        "processorClassName": "org.apache.hadoop.hive.ql.exec.tez.MapTezProcessor",
+        "numKilledTaskAttempts": 0,
+        "servicePlugin": {
+          "taskSchedulerName": "TezYarn",
+          "taskSchedulerClassName": "org.apache.tez.dag.app.rm.YarnTaskSchedulerService",
+          "taskCommunicatorName": "TezYarn",
+          "taskCommunicatorClassName": "org.apache.tez.dag.app.TezTaskCommunicatorImpl",
+          "containerLauncherName": "TezYarn",
+          "containerLauncherClassName": "org.apache.tez.dag.app.launcher.TezContainerLauncherImpl"
+        },
+        "vertexName": "Map 2",
+        "counters": {
+          "counterGroups": [
+            {
+              "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+              "counterGroupDisplayName": "File System Counters",
+              "counters": [
+                {
+                  "counterName": "FILE_BYTES_WRITTEN",
+                  "counterValue": 173,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 173,
+                  "counterMinValue": 173
+                },
+                {
+                  "counterName": "HDFS_BYTES_READ",
+                  "counterValue": 55,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 55,
+                  "counterMinValue": 55
+                },
+                {
+                  "counterName": "HDFS_READ_OPS",
+                  "counterValue": 2,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 2,
+                  "counterMinValue": 2
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+              "counters": [
+                {
+                  "counterName": "GC_TIME_MILLIS",
+                  "counterValue": 62,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 62,
+                  "counterMinValue": 62
+                },
+                {
+                  "counterName": "CPU_MILLISECONDS",
+                  "counterValue": 5860,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 5860,
+                  "counterMinValue": 5860
+                },
+                {
+                  "counterName": "WALL_CLOCK_MILLISECONDS",
+                  "counterValue": 3383,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 3383,
+                  "counterMinValue": 3383
+                },
+                {
+                  "counterName": "PHYSICAL_MEMORY_BYTES",
+                  "counterValue": 291504128,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 291504128,
+                  "counterMinValue": 291504128
+                },
+                {
+                  "counterName": "VIRTUAL_MEMORY_BYTES",
+                  "counterValue": 4540411904,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 4540411904,
+                  "counterMinValue": 4540411904
+                },
+                {
+                  "counterName": "COMMITTED_HEAP_BYTES",
+                  "counterValue": 291504128,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 291504128,
+                  "counterMinValue": 291504128
+                },
+                {
+                  "counterName": "INPUT_RECORDS_PROCESSED",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                  "counterValue": 55,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 55,
+                  "counterMinValue": 55
+                },
+                {
+                  "counterName": "OUTPUT_RECORDS",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "OUTPUT_BYTES",
+                  "counterValue": 83,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 83,
+                  "counterMinValue": 83
+                },
+                {
+                  "counterName": "OUTPUT_BYTES_WITH_OVERHEAD",
+                  "counterValue": 178,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 178,
+                  "counterMinValue": 178
+                },
+                {
+                  "counterName": "OUTPUT_BYTES_PHYSICAL",
+                  "counterValue": 165,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 165,
+                  "counterMinValue": 165
+                }
+              ]
+            },
+            {
+              "counterGroupName": "HIVE",
+              "counters": [
+                {
+                  "counterName": "RECORDS_IN_Map_2",
+                  "counterValue": 3,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 3,
+                  "counterMinValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_INTERMEDIATE_Map_2",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FIL_17",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_RS_19",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_SEL_18",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_TS_3",
+                  "counterValue": 7,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 7,
+                  "counterMinValue": 7
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.hadoop.hive.ql.exec.tez.HiveInputCounters",
+              "counters": [
+                {
+                  "counterName": "GROUPED_INPUT_SPLITS_Map_2",
+                  "counterValue": 1,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 1,
+                  "counterMinValue": 1
+                },
+                {
+                  "counterName": "INPUT_DIRECTORIES_Map_2",
+                  "counterValue": 1,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 1,
+                  "counterMinValue": 1
+                },
+                {
+                  "counterName": "INPUT_FILES_Map_2",
+                  "counterValue": 2,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 2,
+                  "counterMinValue": 2
+                },
+                {
+                  "counterName": "RAW_INPUT_SPLITS_Map_2",
+                  "counterValue": 2,
+                  "counterInstanceCount": 1,
+                  "counterMaxValue": 2,
+                  "counterMinValue": 2
+                }
+              ]
+            }
+          ]
+        },
+        "numCompletedTasks": 1,
+        "numSucceededTasks": 1,
+        "numFailedTasks": 0,
+        "initRequestedTime": 1723250131733,
+        "startRequestedTime": 1723250131760,
+        "timeTaken": 9016,
+        "diagnostics": "",
+        "stats": {
+          "firstTaskStartTime": 1723250137192,
+          "firstTasksToStart": [
+            "task_1723231353225_0009_5_00_000000"
+          ],
+          "lastTaskFinishTime": 1723250140844,
+          "lastTasksToFinish": [
+            "task_1723231353225_0009_5_00_000000"
+          ],
+          "minTaskDuration": 3652,
+          "maxTaskDuration": 3652,
+          "avgTaskDuration": 3652,
+          "shortestDurationTasks": [
+            "task_1723231353225_0009_5_00_000000"
+          ],
+          "longestDurationTasks": [
+            "task_1723231353225_0009_5_00_000000"
+          ]
+        },
+        "startTime": 1723250131830,
+        "endTime": 1723250140846,
+        "numKilledTasks": 0,
+        "initTime": 1723250131830,
+        "status": "SUCCEEDED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "task_attempts": [
+    {
+      "entitytype": "TEZ_TASK_ATTEMPT_ID",
+      "entity": "attempt_1723231353225_0009_5_01_000001_0",
+      "starttime": 1723250141119,
+      "events": [
+        {
+          "timestamp": 1723250148647,
+          "eventtype": "TASK_ATTEMPT_FINISHED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250141119,
+          "eventtype": "TASK_ATTEMPT_STARTED",
+          "eventinfo": {}
+        }
+      ],
+      "domain": "Tez_ATS_application_1723231353225_0009_5",
+      "relatedentities": {},
+      "primaryfilters": {
+        "TEZ_VERTEX_ID": [
+          "vertex_1723231353225_0009_5_01"
+        ],
+        "TEZ_DAG_ID": [
+          "dag_1723231353225_0009_5"
+        ],
+        "applicationId": [
+          "application_1723231353225_0009"
+        ],
+        "TEZ_TASK_ID": [
+          "task_1723231353225_0009_5_01_000001"
+        ],
+        "status": [
+          "SUCCEEDED"
+        ]
+      },
+      "otherinfo": {
+        "counters": {
+          "counterGroups": [
+            {
+              "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+              "counterGroupDisplayName": "File System Counters",
+              "counters": [
+                {
+                  "counterName": "HDFS_BYTES_READ",
+                  "counterValue": 216
+                },
+                {
+                  "counterName": "HDFS_BYTES_WRITTEN",
+                  "counterValue": 195
+                },
+                {
+                  "counterName": "HDFS_READ_OPS",
+                  "counterValue": 9
+                },
+                {
+                  "counterName": "HDFS_WRITE_OPS",
+                  "counterValue": 2
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+              "counters": [
+                {
+                  "counterName": "NUM_SHUFFLED_INPUTS",
+                  "counterValue": 1
+                },
+                {
+                  "counterName": "GC_TIME_MILLIS",
+                  "counterValue": 129
+                },
+                {
+                  "counterName": "CPU_MILLISECONDS",
+                  "counterValue": 6820
+                },
+                {
+                  "counterName": "WALL_CLOCK_MILLISECONDS",
+                  "counterValue": 6997
+                },
+                {
+                  "counterName": "PHYSICAL_MEMORY_BYTES",
+                  "counterValue": 285212672
+                },
+                {
+                  "counterName": "VIRTUAL_MEMORY_BYTES",
+                  "counterValue": 4545261568
+                },
+                {
+                  "counterName": "COMMITTED_HEAP_BYTES",
+                  "counterValue": 285212672
+                },
+                {
+                  "counterName": "INPUT_RECORDS_PROCESSED",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                  "counterValue": 66
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES",
+                  "counterValue": 52
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_DECOMPRESSED",
+                  "counterValue": 48
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_TO_MEM",
+                  "counterValue": 52
+                },
+                {
+                  "counterName": "SHUFFLE_PHASE_TIME",
+                  "counterValue": 398
+                },
+                {
+                  "counterName": "FIRST_EVENT_RECEIVED",
+                  "counterValue": 175
+                },
+                {
+                  "counterName": "LAST_EVENT_RECEIVED",
+                  "counterValue": 175
+                }
+              ]
+            },
+            {
+              "counterGroupName": "HIVE",
+              "counters": [
+                {
+                  "counterName": "CREATED_FILES",
+                  "counterValue": 1
+                },
+                {
+                  "counterName": "RECORDS_IN_Map_1",
+                  "counterValue": 4
+                },
+                {
+                  "counterName": "RECORDS_OUT_0",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FIL_20",
+                  "counterValue": 4
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FS_23",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_MAPJOIN_22",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_SEL_21",
+                  "counterValue": 4
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_TS_0",
+                  "counterValue": 4
+                }
+              ]
+            }
+          ]
+        },
+        "creationTime": 1723250131854,
+        "nodeHttpAddress": "hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8042",
+        "completedLogsURL": "/gateway/default/node/jobhistory/logs/hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8026/container_1723231353225_0009_01_000014/v_Map 1_attempt_1723231353225_0009_5_01_000001_0/naveenkb_de?host=hadoop-cluster-m&port=19888",
+        "timeTaken": 7528,
+        "diagnostics": "",
+        "startTime": 1723250141119,
+        "allocationTime": 1723250133774,
+        "endTime": 1723250148647,
+        "containerId": "container_1723231353225_0009_01_000014",
+        "inProgressLogsURL": "http://jippjy4j4rf4xl3ovgxflbovk4-dot-us-central1.dataproc.googleusercontent.com:80/gateway/default/node/containerlogs/container_1723231353225_0009_01_000014/naveenkb_de?scheme=http&port=8042&host=hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal",
+        "nodeId": "hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8026",
+        "lastDataEvents": {
+          "lastDataEvents": [
+            {
+              "TEZ_TASK_ATTEMPT_ID": "attempt_1723231353225_0009_5_00_000000_0",
+              "ts": 1723250140843
+            }
+          ]
+        },
+        "status": "SUCCEEDED"
+      }
+    },
+    {
+      "entitytype": "TEZ_TASK_ATTEMPT_ID",
+      "entity": "attempt_1723231353225_0009_5_01_000000_0",
+      "starttime": 1723250140876,
+      "events": [
+        {
+          "timestamp": 1723250148638,
+          "eventtype": "TASK_ATTEMPT_FINISHED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250140876,
+          "eventtype": "TASK_ATTEMPT_STARTED",
+          "eventinfo": {}
+        }
+      ],
+      "domain": "Tez_ATS_application_1723231353225_0009_5",
+      "relatedentities": {},
+      "primaryfilters": {
+        "TEZ_VERTEX_ID": [
+          "vertex_1723231353225_0009_5_01"
+        ],
+        "TEZ_DAG_ID": [
+          "dag_1723231353225_0009_5"
+        ],
+        "applicationId": [
+          "application_1723231353225_0009"
+        ],
+        "TEZ_TASK_ID": [
+          "task_1723231353225_0009_5_01_000000"
+        ],
+        "status": [
+          "SUCCEEDED"
+        ]
+      },
+      "otherinfo": {
+        "counters": {
+          "counterGroups": [
+            {
+              "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+              "counterGroupDisplayName": "File System Counters",
+              "counters": [
+                {
+                  "counterName": "HDFS_BYTES_READ",
+                  "counterValue": 124
+                },
+                {
+                  "counterName": "HDFS_BYTES_WRITTEN",
+                  "counterValue": 191
+                },
+                {
+                  "counterName": "HDFS_READ_OPS",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "HDFS_WRITE_OPS",
+                  "counterValue": 2
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+              "counters": [
+                {
+                  "counterName": "NUM_SHUFFLED_INPUTS",
+                  "counterValue": 1
+                },
+                {
+                  "counterName": "GC_TIME_MILLIS",
+                  "counterValue": 146
+                },
+                {
+                  "counterName": "CPU_MILLISECONDS",
+                  "counterValue": 7210
+                },
+                {
+                  "counterName": "WALL_CLOCK_MILLISECONDS",
+                  "counterValue": 7344
+                },
+                {
+                  "counterName": "PHYSICAL_MEMORY_BYTES",
+                  "counterValue": 283115520
+                },
+                {
+                  "counterName": "VIRTUAL_MEMORY_BYTES",
+                  "counterValue": 4559405056
+                },
+                {
+                  "counterName": "COMMITTED_HEAP_BYTES",
+                  "counterValue": 283115520
+                },
+                {
+                  "counterName": "INPUT_RECORDS_PROCESSED",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                  "counterValue": 49
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES",
+                  "counterValue": 65
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_DECOMPRESSED",
+                  "counterValue": 61
+                },
+                {
+                  "counterName": "SHUFFLE_BYTES_TO_MEM",
+                  "counterValue": 65
+                },
+                {
+                  "counterName": "SHUFFLE_PHASE_TIME",
+                  "counterValue": 414
+                },
+                {
+                  "counterName": "FIRST_EVENT_RECEIVED",
+                  "counterValue": 173
+                },
+                {
+                  "counterName": "LAST_EVENT_RECEIVED",
+                  "counterValue": 173
+                }
+              ]
+            },
+            {
+              "counterGroupName": "HIVE",
+              "counters": [
+                {
+                  "counterName": "CREATED_FILES",
+                  "counterValue": 1
+                },
+                {
+                  "counterName": "RECORDS_IN_Map_1",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_0",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FIL_20",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FS_23",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_MAPJOIN_22",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_SEL_21",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_TS_0",
+                  "counterValue": 3
+                }
+              ]
+            }
+          ]
+        },
+        "creationTime": 1723250131853,
+        "nodeHttpAddress": "hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8042",
+        "completedLogsURL": "/gateway/default/node/jobhistory/logs/hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8026/container_1723231353225_0009_01_000013/v_Map 1_attempt_1723231353225_0009_5_01_000000_0/naveenkb_de?host=hadoop-cluster-m&port=19888",
+        "timeTaken": 7762,
+        "diagnostics": "",
+        "startTime": 1723250140876,
+        "allocationTime": 1723250133771,
+        "endTime": 1723250148638,
+        "containerId": "container_1723231353225_0009_01_000013",
+        "inProgressLogsURL": "http://jippjy4j4rf4xl3ovgxflbovk4-dot-us-central1.dataproc.googleusercontent.com:80/gateway/default/node/containerlogs/container_1723231353225_0009_01_000013/naveenkb_de?scheme=http&port=8042&host=hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal",
+        "nodeId": "hadoop-cluster-w-1.us-central1-c.c.hadoop-hive-431821.internal:8026",
+        "lastDataEvents": {
+          "lastDataEvents": [
+            {
+              "TEZ_TASK_ATTEMPT_ID": "attempt_1723231353225_0009_5_00_000000_0",
+              "ts": 1723250140843
+            }
+          ]
+        },
+        "status": "SUCCEEDED"
+      }
+    },
+    {
+      "entitytype": "TEZ_TASK_ATTEMPT_ID",
+      "entity": "attempt_1723231353225_0009_5_00_000000_0",
+      "starttime": 1723250137192,
+      "events": [
+        {
+          "timestamp": 1723250140844,
+          "eventtype": "TASK_ATTEMPT_FINISHED",
+          "eventinfo": {}
+        },
+        {
+          "timestamp": 1723250137192,
+          "eventtype": "TASK_ATTEMPT_STARTED",
+          "eventinfo": {}
+        }
+      ],
+      "domain": "Tez_ATS_application_1723231353225_0009_5",
+      "relatedentities": {},
+      "primaryfilters": {
+        "TEZ_VERTEX_ID": [
+          "vertex_1723231353225_0009_5_00"
+        ],
+        "TEZ_DAG_ID": [
+          "dag_1723231353225_0009_5"
+        ],
+        "applicationId": [
+          "application_1723231353225_0009"
+        ],
+        "TEZ_TASK_ID": [
+          "task_1723231353225_0009_5_00_000000"
+        ],
+        "status": [
+          "SUCCEEDED"
+        ]
+      },
+      "otherinfo": {
+        "counters": {
+          "counterGroups": [
+            {
+              "counterGroupName": "org.apache.tez.common.counters.FileSystemCounter",
+              "counterGroupDisplayName": "File System Counters",
+              "counters": [
+                {
+                  "counterName": "FILE_BYTES_WRITTEN",
+                  "counterValue": 173
+                },
+                {
+                  "counterName": "HDFS_BYTES_READ",
+                  "counterValue": 55
+                },
+                {
+                  "counterName": "HDFS_READ_OPS",
+                  "counterValue": 2
+                }
+              ]
+            },
+            {
+              "counterGroupName": "org.apache.tez.common.counters.TaskCounter",
+              "counters": [
+                {
+                  "counterName": "GC_TIME_MILLIS",
+                  "counterValue": 62
+                },
+                {
+                  "counterName": "CPU_MILLISECONDS",
+                  "counterValue": 5860
+                },
+                {
+                  "counterName": "WALL_CLOCK_MILLISECONDS",
+                  "counterValue": 3383
+                },
+                {
+                  "counterName": "PHYSICAL_MEMORY_BYTES",
+                  "counterValue": 291504128
+                },
+                {
+                  "counterName": "VIRTUAL_MEMORY_BYTES",
+                  "counterValue": 4540411904
+                },
+                {
+                  "counterName": "COMMITTED_HEAP_BYTES",
+                  "counterValue": 291504128
+                },
+                {
+                  "counterName": "INPUT_RECORDS_PROCESSED",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "INPUT_SPLIT_LENGTH_BYTES",
+                  "counterValue": 55
+                },
+                {
+                  "counterName": "OUTPUT_RECORDS",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "OUTPUT_BYTES",
+                  "counterValue": 83
+                },
+                {
+                  "counterName": "OUTPUT_BYTES_WITH_OVERHEAD",
+                  "counterValue": 178
+                },
+                {
+                  "counterName": "OUTPUT_BYTES_PHYSICAL",
+                  "counterValue": 165
+                }
+              ]
+            },
+            {
+              "counterGroupName": "HIVE",
+              "counters": [
+                {
+                  "counterName": "RECORDS_IN_Map_2",
+                  "counterValue": 3
+                },
+                {
+                  "counterName": "RECORDS_OUT_INTERMEDIATE_Map_2",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_FIL_17",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_RS_19",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_SEL_18",
+                  "counterValue": 7
+                },
+                {
+                  "counterName": "RECORDS_OUT_OPERATOR_TS_3",
+                  "counterValue": 7
+                }
+              ]
+            }
+          ]
+        },
+        "creationTime": 1723250131833,
+        "nodeHttpAddress": "hadoop-cluster-w-0.us-central1-c.c.hadoop-hive-431821.internal:8042",
+        "completedLogsURL": "/gateway/default/node/jobhistory/logs/hadoop-cluster-w-0.us-central1-c.c.hadoop-hive-431821.internal:8026/container_1723231353225_0009_01_000012/v_Map 2_attempt_1723231353225_0009_5_00_000000_0/naveenkb_de?host=hadoop-cluster-m&port=19888",
+        "timeTaken": 3652,
+        "diagnostics": "",
+        "startTime": 1723250137192,
+        "allocationTime": 1723250133516,
+        "endTime": 1723250140844,
+        "containerId": "container_1723231353225_0009_01_000012",
+        "inProgressLogsURL": "http://jippjy4j4rf4xl3ovgxflbovk4-dot-us-central1.dataproc.googleusercontent.com:80/gateway/default/node/containerlogs/container_1723231353225_0009_01_000012/naveenkb_de?scheme=http&port=8042&host=hadoop-cluster-w-0.us-central1-c.c.hadoop-hive-431821.internal",
+        "nodeId": "hadoop-cluster-w-0.us-central1-c.c.hadoop-hive-431821.internal:8026",
+        "lastDataEvents": {
+          "lastDataEvents": [
+            {
+              "TEZ_TASK_ATTEMPT_ID": "",
+              "ts": 1723250131830
+            }
+          ]
+        },
+        "status": "SUCCEEDED"
+      }
+    }
+  ]
+}
